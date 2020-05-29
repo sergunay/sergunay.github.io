@@ -17,8 +17,8 @@ title: Selman Ergunay
 email:
 description: >- # this means to ignore newlines until "baseurl:"
   Site description.
-twitter_username: username
-github_username: username
+#twitter_username: username
+#github_username: username
 minimal_mistakes_skin: dark
 search: true
 
@@ -60,24 +60,15 @@ author:
   avatar : "/assets/images/bio-photo.jpg"
   bio    : "Electronics"
   links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/"
 
 footer:
   links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
 
 defaults:
   # _posts
@@ -105,6 +96,7 @@ defaults:
       path: ""
       type: docs
     values:
+      author_profile: false
       sidebar:
         nav: "docs"
 
