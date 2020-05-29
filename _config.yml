@@ -106,6 +106,8 @@ defaults:
     values:
       layout: single
       author_profile: false
+      sidebar:
+        nav: "docs"
   # _docs
   - scope:
       path: ""
