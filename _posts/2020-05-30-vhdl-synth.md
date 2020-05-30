@@ -3,8 +3,9 @@ title: "VHDL: Synthesis"
 categories:
   - Digital design
 tags:
-  - VHDL
-  - Digital
+  - vhdl
+  - digital
+toc: true
 ---
 
 # VHDL / synthesis
