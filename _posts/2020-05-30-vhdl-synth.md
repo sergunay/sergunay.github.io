@@ -19,7 +19,7 @@ VHDL File Structure
 
 ### Standard header
 
-```VHDL
+```vhdl
 --*****************************************************************************
 -- Company			EPFL-LSM
 -- Project Name		Medusa
@@ -60,7 +60,7 @@ VHDL File Structure
 
 <https://standards.ieee.org/downloads/1076/1076.2-1996/numeric_std.vhdl>
 
-```VHDL
+```vhdl
 library ieee;
 use ieee.std_logic_1164.all;	-- std_logic, logical operations, rising_edge, falling_edge	
 use ieee.std_numeric.all;	-- signed and unsigned type, arithmetic operations	
@@ -76,7 +76,7 @@ Predefined logical design libraries:
 
 ### Entity declaration
 
-```VHDL
+```vhdl
 entity serg is 
   generic
   port(
@@ -92,34 +92,35 @@ end entity serg;
   
 
 ### Logic communication representation
-```VHDL
-	signal clk : std_logic;
-	signal clk : std_logic := '0';
+```vhdl
+signal clk : std_logic;
+signal clk : std_logic := '0';
+
+signal data_bus : std_logic_vector(31 downto 0);
+signal data_bus : std_logic_vector(31 downto 0) := (others => '0');
+signal data_bus : std_logic_vector(31 downto 0) := "0000_0000";	
 	
-	signal data_bus : std_logic_vector(31 downto 0);
-	signal data_bus : std_logic_vector(31 downto 0) := (others => '0');
-	signal data_bus : std_logic_vector(31 downto 0) := "0000_0000";	
-	
-	signal count 	: integer := 0;
-	--Naming:
-	signal signalname_s : signed(7 downto 0);
-	signal signalname_u	: unsigned(7 downto 0);
+signal count 	: integer := 0;
+--Naming:
+signal signalname_s : signed(7 downto 0);
+signal signalname_u	: unsigned(7 downto 0);
 ```
 
 ### Logic data representation
 
 ```vhdl
-	type std_ulogic is ( 'U', -- Uninitialized
-						 'X', -- Forcing Unknown
-						 '0', -- Forcing 0
-						 '1', -- Forcing 1
-						 'Z', -- High Impedance
-						 'W', -- Weak Unknown
-						 'L', -- Weak 0
-						 'H', -- Weak 1
-						 '-' -- Don't Care
-						);
-	type std_logic_vector is array (natural range <>) of std_logic;
+type std_ulogic is ( 'U', -- Uninitialized
+                     'X', -- Forcing Unknown
+                     '0', -- Forcing 0
+                     '1', -- Forcing 1
+                     'Z', -- High Impedance
+                     'W', -- Weak Unknown
+                     'L', -- Weak 0
+                     'H', -- Weak 1
+                      '-' -- Don't Care
+);
+
+type std_logic_vector is array (natural range <>) of std_logic;
 ```
 
 ### Type declaration
