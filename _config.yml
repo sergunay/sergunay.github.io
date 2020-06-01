@@ -60,10 +60,18 @@ author:
   avatar : "/assets/images/bio-photo.jpg"
   bio    : "Electronics, embedded systems"
   links:
-      location : "Lausanne, CH"
-      github: sergunay
-      linkedin: https://www.linkedin.com/in/ergunay/"
-      email : selmanerg@gmail.com
+    - label: "Lausanne, CH"
+      icon: "map-marker-alt"
+    - label: "E-mail"
+      icon: "envelope-square"
+      url: "mailto:selmanerg@gmail.com"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/sergunay"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/ergunay/"
+
 
 footer:
   links:
