@@ -59,11 +59,10 @@ author:
   name   : "Selman Ergünay"
   avatar : "/assets/images/bio-photo.jpg"
   bio    : "Electronics, embedded systems"
+  location : "Lausanne, CH"
   links:
-    - label: "Lausanne, CH"
-      icon: "map-marker-alt"
     - label: "E-mail"
-      icon: "envelope-square"
+      icon: "fas fa-fw fa-envelope-square"
       url: "mailto:selmanerg@gmail.com"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
