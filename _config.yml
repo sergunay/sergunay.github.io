@@ -58,14 +58,12 @@ plugins:
 author:
   name   : "Selman Ergünay"
   avatar : "/assets/images/bio-photo.jpg"
-  bio    : "Electronics"
+  bio    : "Electronics, embedded systems"
   links:
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
-    - label: "LinkedIn"
-      icon: "fab fa-fw fa-linkedin"
-      url: "https://www.linkedin.com/in/ergunay/"
+      location : "Lausanne, CH"
+      github: sergunay
+      linkedin: https://www.linkedin.com/in/ergunay/"
+      email : selmanerg@gmail.com
 
 footer:
   links:
@@ -75,6 +73,9 @@ footer:
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/ergunay/"
+    - label: "E-mail"
+      icon: "fab fa-fw fa-email"
+      url: "mailto:selmanerg@gmail.com"
 
 defaults:
   # _posts
