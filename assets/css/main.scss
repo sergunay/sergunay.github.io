@@ -14,7 +14,7 @@ html {
   @include breakpoint($x-large) {
     font-size: 16px; // change to whatever
   }
-}
+
 
 body .gist .highlight {
     background: #272822;
@@ -160,4 +160,6 @@ body .gist .pl-ii,
 body .gist .pl-iu {
     background: #a6e22e;
     color: #272822;
+}
+  
 }
