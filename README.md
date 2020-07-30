@@ -21,3 +21,6 @@
 * [ ] Text based documentation
 * [ ] Lattice - TinyFPGA
 * [ ] Xilinx - Cmod-A7
+
+* [ ] Bookshelf
+* [ ] Publications
