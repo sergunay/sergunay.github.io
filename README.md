@@ -1,4 +1,5 @@
 * [ ] STM32 Bare-Metal Programming
+* [ ] Debugging - gdb
 * [ ] VHDL - synthesis
 * [ ] VHDL - simulation
 * [ ] Open source tools for synthesis
